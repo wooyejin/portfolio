@@ -8,6 +8,7 @@
 	<!-- Font -->
 	
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
 	
 	<!-- Stylesheets -->
 	<link href="common-css/bootstrap.css" rel="stylesheet">
@@ -18,7 +19,14 @@
 	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
 	
 	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+	
+	
+	
 </head>
+<style>
+
+
+</style>
 <body>
 <header>
 		<div class="container">
@@ -26,37 +34,54 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-6 col-lg-4">
 						<div class="info">
-							<i class="icon ion-ios-location-outline"></i>
+							<i class="icon ion-ios-location-outline">
+							<img src="images/woman.png" style="width:32px; position:relative; top:-5px;">
+							</i>
 							<div class="right-area">
-								<h5>3008 Sarah Drive</h5>
-								<h5>Franklin,LA 70538</h5>
+							<a href="#aboutme" class="scroll">
+								<h5 style="font-family: 'Noto Sans KR', sans-serif;
+								position: relative;top: 10px;">About Me</h5>
+							</a>
+							</div>
+							<!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+					
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info" style="margin-left: 58px;">
+							<i class="icon ion-ios-telephone-outline">
+							<img src="images/comskill.png" style="width:32px; position:relative; top:-3px;">
+							</i>
+							<div class="right-area">
+							<a href="#skills" class="scroll">
+								<h5 style="font-family: 'Noto Sans KR', sans-serif;
+								position: relative;top: 10px;">Skills</h5>
+							</a>
 							</div><!-- right-area -->
 						</div><!-- info -->
 					</div><!-- col-sm-4 -->
 					
 					<div class="col-sm-6 col-md-6 col-lg-4">
 						<div class="info">
-							<i class="icon ion-ios-telephone-outline"></i>
+							<i class="icon ion-ios-chatboxes-outline"
+							style="margin-left: 101px;">
+								<img src="images/github.png" style="width:36px; position:relative; top:-3px;">
+							</i>
 							<div class="right-area">
-								<h5>337-4139538</h5>
-								<h6>MIN - FRI,8AM - 7PM</h6>
+							<a href="#github" class="scroll">
+								<h5 style="font-family: 'Noto Sans KR', sans-serif;
+								position: relative;top: 10px;left: 14px;">GitHub</h5>
+							</a>
 							</div><!-- right-area -->
 						</div><!-- info -->
 					</div><!-- col-sm-4 -->
 					
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-chatboxes-outline"></i>
-							<div class="right-area">
-								<h5>contact@colorlib.com</h5>
-								<h6>REPLY IN 24 HOURS</h6>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
+					
+					
 				</div><!-- row -->
 			</div><!-- heading-wrapper -->
 			
-			<a class="downlad-btn" href="#">Download CV</a>
+			<a class="downlad-btn" href="#project">Project</a>
 		</div><!-- container -->
 	</header>
 	
@@ -66,13 +91,14 @@
 				<div class="col-md-1 col-lg-2"></div>
 				<div class="col-md-10 col-lg-8">
 					<div class="intro">
-						<div class="profile-img"><img src="images/profile-1-250x250.jpg" alt=""></div>
-						<h2><b>Michel SMith</b></h2>
-						<h4 class="font-yellow">Key Account Manager</h4>
+						<div class="profile-img"><img src="images/myprofile.jpg" alt=""></div>
+						<h2 style="font-family: 'Noto Sans KR', sans-serif;"><b>우예진</b></h2>
+						<h4 class="font-yellow" style="font-family: 'Noto Sans KR', sans-serif;">자바 개발자</h4>
 						<ul class="information margin-tb-30">
-							<li><b>BORN : </b>August 25, 1987</li>
-							<li><b>EMAIL : </b>mymith@mywebpage.com</li>
-							<li><b>MARITAL STATUS : </b>Married</li>
+							<li><b>Name : </b>Ye Jin Woo</li>
+							<li><b>Email : </b>asdok97@naver.com</li>
+							<li><b>Phone : </b>010-9865-8485</li>
+							<li><b>Github :</b> https://github.com/wooyejin</li>
 						</ul>
 						<ul class="social-icons">
 							<li><a href="#"><i class="ion-social-pinterest"></i></a></li>
@@ -87,16 +113,192 @@
 		</div><!-- container -->
 	</section><!-- intro-section -->
 	
-	<section class="portfolio-section section">
+	
+	<section class="about-section section" id="aboutme">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-12 col-md-3">
+					<div class="heading" >
+						<h3><b>About me</b></h3>
+						<h6 class="font-lite-black"><b></b></h6>
+					</div>
+				</div><!-- col-sm-3 -->
+				<div class="col-sm-12 col-md-9">
+					<p class="margin-b-50" style="font-family: 'Noto Sans KR', sans-serif;">
+					<!-- 자기소개란이 들어갈 곳 -->
+					안녕하세요! 저는 자바 개발자 우예진 입니다.
+					<br><br>
+					새로운 것에 도전하는 것을 좋아하고, 프로젝트를 만드는 것을 즐기는 개발자 입니다.
+					</p>
+					
+					
+					<br><br><br>
+				<div class="row">
+				<div class="col-sm-12 center-text">
+					<div class="heading" style="margin-left: -283px;">
+						<h3><b style="font-family: 'Noto Sans KR', sans-serif;">Education</b></h3>
+						<h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+					</div>
+				</div><!-- col-sm-3 -->
+				
+				<div class="col-sm-12">
+				
+					<div class="education-wrapper margin-b-50">
+						<div class="education right">
+							<h4 style="font-family: 'Noto Sans KR', sans-serif;"><b>서경대학교</b></h4>
+							<h5 class="font-yellow" style="font-family: 'Noto Sans KR', sans-serif;">
+							<b>2016.2~2020.2</b></h5>
+							<h6 class="font-lite-black margin-t-10">GRADUATED IN FEBRUARY 2020(4 YEARS)</h6>
+							<p class="margin-t-30" style="font-family: 'Noto Sans KR', sans-serif;">
+							컴퓨터공학과를 졸업하였습니다.
+							</p>
+						</div><!-- education -->
+						
+						<br><br>
+						
+						<div class="education left">
+							<h4 style="font-family: 'Noto Sans KR', sans-serif;">
+							<b>KH정보교육원</b></h4>
+							<h5 class="font-yellow"><b>2019.9.27~2020.5.1</b></h5>
+							<h6 class="font-lite-black margin-t-10">COMPLETED IN MAY 2020</h6>
+							<p class="margin-t-30" style="font-family: 'Noto Sans KR', sans-serif;">
+							자바 개발자 프레임워크 양성 과정을 수료하였습니다.
+							</p>
+						</div><!-- education -->
+
+					</div><!-- education-wrapper -->
+				</div><!-- col-sm-9 -->
+			</div><!-- row -->
+				</div><!-- col-sm-9 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
+
+	
+	
+	
+	<section class="skills-section section" id="skills">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center-text">
 					<div class="heading">
-						<h3><b>Portfolio</b></h3>
+						<h3><b>Skills</b></h3>
+						<h6 class="font-lite-black"><b>I'M GOOD AT</b></h6>
+					</div>
+				</div><!-- col-sm-12 -->
+			
+				<div class="col-sm-12 col-md-6">
+					<div class="line-progress-1  margin-b-20" data-prog-percent=".70"><div></div>
+						<p class="progress-title"><b>HTML5</b></p></div>
+						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
+						<strong style="color:#a84cb8">HTML</strong> 을 이용하여 직접 웹 화면을 구현해보았습니다. 여러 화면들을 구현하면서 원하는 정보를
+						원하는 곳에 구현할 수 있게 되었습니다.
+						</p>
+					
+					<div class="line-progress-2 margin-b-50" data-prog-percent=".70"><div></div>
+						<p class="progress-title"><b>CSS</b></p>
+						</div>
+						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
+						<strong style="color:#4054b2">HTML5</strong> 과 같이 사용하면서 화면을 구현하였고, 화면의 배지나 컬러 등 시각적인 효과를 활용할 수 있습니다.
+						</p>
+						
+						<div class="line-progress-3 margin-b-50" data-prog-percent=".70"><div></div>
+						<p class="progress-title"><b>JAVASCRIPT</b></p>
+						</div>
+						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
+						<strong style="color:#f9bf3f">JAVASCRIPT</strong> 의 문법을 공부 하였고 직접 웹화면에서 여러 이벤트들을 사용하였습니다.
+						<strong style="color:#f9bf3f">JQUERY</strong> 를 이용하여 좀더 간편하게 코드를 구성하였고,<br>
+						<strong style="color:#f9bf3f">AJAX</strong> 를 이용하여 필요한 부분은 비동기 처리할 수 있는 기술을 사용할 수 있습니다.
+						</p>
+
+				</div><!-- col-md-6 -->
+				
+				<div class="col-sm-12 col-md-6">
+						
+					<div class="line-progress-4 margin-b-20" data-prog-percent=".97"><div></div>
+						<p class="progress-title"><b>JAVA</b></p>
+						</div>
+						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
+						기초적인 변수부터  <strong style="color:#ec5453">JDBC, JSP, SPRING</strong> 등 다양한 기술들을 공부하였습니다.
+						패턴에 대한 흐름과 깁노적인 사용능력을 가지고 있습니다.
+						</p>
+					
+					<div class="line-progress-5 margin-b-50" data-prog-percent=".97"><div></div>
+						<p class="progress-title"><b>ORACLE</b></p>
+						</div>
+						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
+						테이블, 컬럼 등 기본개념을 가지고 있으며 <strong style="color:#2fa499">ORACLE</strong> 문법을 이용한
+						  <strong style="color:#2fa499">CRUD</strong>가 가능하고<br>
+						<strong style="color:#2fa499">JOIN, GROUP, SEQUENCE</strong> 등 활용이 가능합니다.
+						</p>
+						
+						<div class="line-progress-6 margin-b-50" data-prog-percent=".97"><div></div>
+						<p class="progress-title"><b>GITHUB</b></p>
+						</div>
+						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
+						팀원들과 프로젝트를 진행하면서 git Desktop을 사용하여 <strong style="color:#2c98f0">COMMIT, PUSH, MERGE</strong> 등
+						기본적인 기능들을 습득하였고 레파지토리의 생성 및 프로젝트 등록 등이 가능합니다.
+						</p>
+						
+						<!-- <div class="line-progress-7 margin-b-50" data-prog-percent=".97"><div></div>
+						<p class="progress-title"><b>PYTHON</b></p>
+						</div>
+						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
+						파이썬 기초에 대해서 공부하고, 파이썬을 통해 차량번호판인식에 대해 학습하였습니다.
+						파이썬 언어의 기본적인 문법에 대해 알고 있습니다.
+						</p> -->
+
+				</div><!-- col-md-6 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- skills-section -->
+	
+	
+	
+	<section class="skills-section section" id="github">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center-text">
+					<div class="heading">
+						<h3><b>GitHub</b></h3>
+						<h6 class="font-lite-black"><b>I'M GOOD AT</b></h6>
+					</div>
+				</div><!-- col-sm-12 -->
+				
+				<div data-block-id="d57e0b38-c466-42a8-8a78-fa6c61fa31e5" class="notion-selectable notion-bookmark-block" style="width: 100%; max-width: 1260px; margin-top: 4px; margin-bottom: 4px;">
+				<div>
+				<div style="display: flex;">
+				<a target="_blank" rel="noopener noreferrer" href="https://github.com/wooyejin" style="display: block; color: inherit; text-decoration: none; flex-grow: 1; min-width: 0px;">
+				<div role="button" tabindex="0" style="user-select: none; transition: background 120ms ease-in 0s; cursor: pointer; width: 100%; display: flex; flex-wrap: wrap-reverse; align-items: stretch; text-align: left; overflow: hidden; border: 1px solid rgba(55, 53, 47, 0.16); border-radius: 3px; position: relative; color: inherit; fill: inherit; height:218px;">
+				<div style="flex: 4 1 180px; padding: 12px 14px 14px; overflow: hidden; text-align: left;">
+				<div style="font-size: 14px; line-height: 20px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 24px; margin-bottom: 2px;">
+				wooyejin - Overview</div>
+				<div style="font-size: 12px; line-height: 16px; color: rgba(55, 53, 47, 0.6); height: 32px; overflow: hidden;">
+				Sign up for your own profile on GitHub, the best place to host code, manage projects, and build software alongside 40 million developers.</div>
+				<div style="display: flex; margin-top: 115px;"><img src="images/titleImg.jpg" style="width: 16px; height: 16px; min-width: 16px; margin-right: 6px;">
+				<div style="font-size: 12px; line-height: 16px; color: rgb(55, 53, 47); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">https://github.com/wooyejin</div></div></div>
+				<div style="flex: 1 1 180px; display: block; position: relative;"><div style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px;"><div style="width: 100%; height: 100%;">
+				<img src="https://avatars2.githubusercontent.com/u/52619813?s=460&u=46a23e41d3284523775a30e46db452f1f5c85eb1&v=4" style="display: block; object-fit: cover; border-radius: 1px; width: 100%; height: 100%;"></div></div></div></div></a></div></div></div>
+				
+				
+		</div>
+	</div>
+</section>
+				
+	
+	
+	
+	<section class="portfolio-section section" id="project">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-3">
+					<div class="heading">
+						<h3><b>Project</b></h3>
 						<h6 class="font-lite-black"><b>MY WORK</b></h6>
 					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
+				</div><!-- col-sm-3 -->
+				
+				<div class="col-sm-12 col-md-9">
 					<div class="portfolioFilter clearfix margin-b-80">
 						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
 						<a href="#" data-filter=".web-design"><b>WEB DESIGN</b></a>
@@ -105,255 +307,58 @@
 					</div><!-- portfolioFilter -->
 				</div><!-- col-sm-8 -->
 			</div><!-- row -->
-		</div><!-- container -->
-		
-		<div class="portfolioContainer">
 			
-			<div class="p-item web-design">
-				<a href="images/portfolio-1-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-1-600x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item branding graphic-design">
-				<a href="images/portfolio-7-600x800.jpg" data-fluidbox>
-					<img src="images/portfolio-7-600x800.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item web-design">
-				<a href="images/portfolio-2-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-2-600x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item p-item-2 graphic-design">
-				<a class="img" href="images/portfolio-8-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-8-300x400.jpg" alt=""></a>
-				<a class="img" href="images/portfolio-9-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-9-300x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item branding graphic-design">
-				<a href="images/portfolio-3-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-3-600x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item graphic-design web-design">
-				<a href="images/portfolio-4-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-4-600x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item  graphic-design branding">
-				<a href="images/portfolio-5-600x800.jpg" data-fluidbox>
-					<img src="images/portfolio-5-600x800.jpg" alt=""></a>
-			</div><!-- p-item -->
+			<div class="portfolioContainer  margin-b-50">
 				
-			<div class="p-item web-design branding">
-				<a href="images/portfolio-6-600x800.jpg" data-fluidbox>
-					<img src="images/portfolio-6-600x800.jpg" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item p-item-2 graphic-design">
-				<a class="img" href="images/portfolio-10-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-10-300x400.jpg" alt=""></a>
-				<a class="img" href="images/portfolio-11-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-11-300x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-		
-		</div><!-- portfolioContainer -->
-		
+				<div class="p-item web-design">
+					<a href="images/portfolio-13-400x400.jpg" data-fluidbox>
+						<img src="images/portfolio-13-400x400.jpg" alt=""></a>
+				</div><!-- p-item -->
+				
+				<div class="p-item branding graphic-design">
+					<a href="images/portfolio-14-400x400.jpg" data-fluidbox>
+						<img src="images/portfolio-14-400x400.jpg" alt=""></a>
+				</div><!-- p-item -->
+				
+				<div class="p-item web-design">
+					<a href="images/portfolio-15-400x400.jpg" data-fluidbox>
+						<img src="images/portfolio-15-400x400.jpg" alt=""></a>
+				</div><!-- p-item -->
+				
+				<div class="p-item graphic-design">
+					<a class="img" href="images/portfolio-16-400x400.jpg" data-fluidbox>
+						<img src="images/portfolio-16-400x400.jpg" alt=""></a>
+				</div><!-- p-item -->
+				
+				<div class="p-item branding graphic-design">
+					<a href="images/portfolio-17-400x400.jpg" data-fluidbox>
+						<img src="images/portfolio-17-400x400.jpg" alt=""></a>
+				</div><!-- p-item -->
+				
+				<div class="p-item graphic-design web-design">
+					<a href="images/portfolio-18-400x400.jpg" data-fluidbox>
+						<img src="images/portfolio-18-400x400.jpg" alt=""></a>
+				</div><!-- p-item -->
+				
+				<div class="p-item  graphic-design branding">
+					<a href="images/portfolio-19-400x400.jpg" data-fluidbox>
+						<img src="images/portfolio-19-400x400.jpg" alt=""></a>
+				</div><!-- p-item -->
+					
+				<div class="p-item web-design branding">
+					<a href="images/portfolio-20-400x400.jpg" data-fluidbox>
+						<img src="images/portfolio-20-400x400.jpg" alt=""></a>
+				</div><!-- p-item -->
+			
+			</div><!-- portfolioContainer -->
+		</div><!-- container -->
 	</section><!-- portfolio-section -->
 	
 	
-	<section class="about-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>About me</b></h3>
-						<h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-					<p class="margin-b-50">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque 
-					sit amet sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Nulla maximus pellentes que velit, quis consequat nulla effi citur at. 
-					Maecenas sed massa tristique.Duis non volutpat arcu, eu mollis tellus. 
-					Sed finibus aliquam neque sit amet sodales. Lorem ipsum dolor sit amet, 
-					consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur 
-					adipiscing elit. Nulla maximus pellentes que velit, quis consequat nulla 
-					effi citur at.Maecenas sed massa tristique.</p>
-					
-					<div class="row">
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-30">
-								<div class="radial-progress" data-prog-percent=".97">
-									<div></div>
-									<h6 class="progress-title">HTML5 & CSS3</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-					
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-30">
-								<div class="radial-progress" data-prog-percent=".78">
-									<div></div>
-									<h6 class="progress-title">WEB DESIGN</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-						
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-30">
-								<div class="radial-progress" data-prog-percent=".67">
-									<div></div>
-									<h6 class="progress-title">JAVA</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-						
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-50">
-								<div class="radial-progress" data-prog-percent=".97">
-									<div></div>
-									<h6 class="progress-title">PHP</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-					
-					</div><!-- row -->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- about-section -->
 	
-	<section class="experience-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>Work Experience</b></h3>
-						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-				
-					<div class="experience margin-b-50">
-						<h4><b>JUNIOR PROJECT MANAGER</b></h4>
-						<h5 class="font-yellow"><b>DESIGN STUDIO</b></h5>
-						<h6 class="margin-t-10">MARCH 2015 - PRESENT</h6>
-						<p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
-							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
-							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
-						<ul class="list margin-b-30">
-							<li>Duis non volutpat arcu, eu mollis tellus.</li>
-							<li>Quis consequat nulla effi citur at.</li>
-							<li>Sed finibus aliquam neque sit.</li>
-						</ul>
-					</div><!-- experience -->
-					
-					<div class="experience margin-b-50">
-						<h4><b>WEB MASTER/WEB DEVELOPER</b></h4>
-						<h5 class="font-yellow"><b>DESIGN & WEB STUDIO</b></h5>
-						<h6 class="margin-t-10">APRIL 2014 - FEBRUARY 2015</h6>
-						<p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
-							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
-							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
-						<ul class="list margin-b-30">
-							<li>Duis non volutpat arcu, eu mollis tellus.</li>
-							<li>Quis consequat nulla effi citur at.</li>
-							<li>Sed finibus aliquam neque sit.</li>
-						</ul>
-					</div><!-- experience -->
-					
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-		
-	</section><!-- experience-section -->
 	
-	<section class="education-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>Education</b></h3>
-						<h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-					<div class="education-wrapper">
-						<div class="education margin-b-50">
-							<h4><b>MASTER DEGREE IN SCIENCE</b></h4>
-							<h5 class="font-yellow"><b>UCLA - SCIENCE AND ENGINEERING</b></h5>
-							<h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2010(2 YEARS)</h6>
-							<p class="margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
-							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
-							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
-						</div><!-- education -->
-						
-						<div class="education margin-b-50">
-							<h4><b>COURSE ON COMPUTER SCIENCE</b></h4>
-							<h5 class="font-yellow"><b>NEW YORK PUBLIC UNIVERSITY</b></h5>
-							<h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2009(6 MONTHS)</h6>
-							<p class="margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
-							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
-							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
-						</div><!-- education -->
-						
-						<div class="education margin-b-50">
-							<h4><b>GRADUATED VALEDICTERIAN</b></h4>
-							<h5 class="font-yellow"><b>PUBLIC COLLEGE</b></h5>
-							<h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2008(4 YEARS)</h6>
-							<p class="margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
-							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
-							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
-						</div><!-- education -->
-					</div><!-- education-wrapper -->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-		
-	</section><!-- about-section -->
 	
-	<section class="counter-section" id="counter">
-		<div class="container">
-			<div class="row">
-			
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="400" data-count="3">0</span></b></h1>
-						<h5 class="desc"><b>Coder Degrees</b></h5>
-					</div><!-- counter -->
-				</div><!-- col-md-3-->
-				
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="1400" data-count="25">0</span></b></h1>
-						<h5 class="desc"><b>Project Completed</b></h5>
-					</div><!-- counter -->
-				</div><!-- col-md-3-->
-				
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="700" data-count="311">0</span></b></h1>
-						<h5 class="desc"><b>Satisfied Clients</b></h5>
-					</div><!-- counter -->
-				</div><!-- col-md-3-->
-				
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="2000" data-count="732">0</span></b></h1>
-						<h5 class="desc"><b>Finished Projects</b></h5>
-					</div><!-- margin-b-30 -->
-				</div><!-- col-md-3-->
-				
-			</div><!-- row-->
-		</div><!-- container-->
-    </section><!-- counter-section-->
+
 	
 	<footer>
 		<p class="copyright">
@@ -369,6 +374,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<!-- SCIPTS -->
 	
 	<script src="common-js/jquery-3.2.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
 	
 	<script src="common-js/tether.min.js"></script>
 	
@@ -383,6 +389,41 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="common-js/jquery.fluidbox.min.js"></script>
 	
 	<script src="common-js/scripts.js"></script>
+	
+	<script>
+
+	jQuery(document).ready(function($) {
+
+	$(".scroll").click(function(event){            
+
+	event.preventDefault();
+
+	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+
+	});
+
+	});
+
+	</script>
+	
+	
+	
+	<script>
+	jQuery(document).ready(function($) {
+
+		$(".downlad-btn").click(function(event){            
+
+		event.preventDefault();
+
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+
+		});
+
+		});
+
+	
+	</script>
+	
 	
 </body>
 </html>
