@@ -340,6 +340,16 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	    top:-7px;
 }
 
+.pdf_go {
+	border:2px solid;
+/* 	background-color:#fff; */
+	border-radius:22px;
+	    padding: 8px 22px;
+	    position:relative;
+	    left:30px;
+	    top:23px;
+}
+
 .modal {
             display: none; /* Hidden by default */
             position: fixed; /* Stay in place */
