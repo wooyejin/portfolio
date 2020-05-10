@@ -160,7 +160,14 @@
     cursor: pointer;
 }
 
-
+.mail:hover {
+	background-color:#FFAB00;
+	border-radius: 20px;
+}
+.call:hover {
+	background-color:#FFAB00;
+	border-radius: 20px;
+}
 
 .go_button:hover, .go_button2:hover, .go_button3:hover, .github_go:hover, .pdf_go:hover{
 	background-color:#f3f3f3;
@@ -222,7 +229,8 @@
 				</div><!-- row -->
 			</div><!-- heading-wrapper -->
 			
-			<a class="downlad-btn" href="#project">Project</a>
+			<a class="downlad-btn" href="#project">Project</a><br>
+			<!-- <a class="downlad-btn" href="#project" style="position: relative;top: 31px;left: -27px;">Contact</a> -->
 		</div><!-- container -->
 	</header>
 	
@@ -242,11 +250,18 @@
 							<li><b>Github :</b> https://github.com/wooyejin</li>
 						</ul>
 						<ul class="social-icons">
-							<li><a href="#"><i class="ion-social-pinterest"></i></a></li>
-							<li><a href="#"><i class="ion-social-linkedin"></i></a></li>
-							<li><a href="#"><i class="ion-social-instagram"></i></a></li>
-							<li><a href="#"><i class="ion-social-facebook"></i></a></li>
-							<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+
+							<li><a href="mailto:name@email.com">
+							<i class="ion-social-instagram">
+							<img src ="/portfolio/images/envelopes.png" style="width:40px;"
+							class="mail">
+							</i></a></li>
+							&nbsp;
+							<li><a href="tel:010-9865-8485"><i class="ion-social-facebook">
+							<img src="/portfolio/images/call.png" style="width:40px;"
+							class="call">
+							</i></a></li>
+
 						</ul>
 					</div><!-- intro -->
 				</div><!-- col-sm-8 -->
@@ -343,7 +358,7 @@
 						<strong style="color:#4054b2">HTML5</strong> 과 같이 사용하면서 화면을 구현하였고, 화면의 배지나 컬러 등 시각적인 효과를 활용할 수 있습니다.
 						</p>
 						
-						<div class="line-progress-3 margin-b-50" data-prog-percent=".70"><div></div>
+						<div class="line-progress-3 margin-b-50" data-prog-percent=".75"><div></div>
 						<p class="progress-title"><b>JAVASCRIPT</b></p>
 						</div>
 						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
@@ -356,7 +371,7 @@
 				
 				<div class="col-sm-12 col-md-6">
 						
-					<div class="line-progress-4 margin-b-20" data-prog-percent=".97"><div></div>
+					<div class="line-progress-4 margin-b-20" data-prog-percent=".85"><div></div>
 						<p class="progress-title"><b>JAVA</b></p>
 						</div>
 						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
@@ -364,7 +379,7 @@
 						패턴에 대한 흐름과 깁노적인 사용능력을 가지고 있습니다.
 						</p>
 					
-					<div class="line-progress-5 margin-b-50" data-prog-percent=".97"><div></div>
+					<div class="line-progress-5 margin-b-50" data-prog-percent=".80"><div></div>
 						<p class="progress-title"><b>ORACLE</b></p>
 						</div>
 						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
@@ -373,7 +388,7 @@
 						<strong style="color:#2fa499">JOIN, GROUP, SEQUENCE</strong> 등 활용이 가능합니다.
 						</p>
 						
-						<div class="line-progress-6 margin-b-50" data-prog-percent=".97"><div></div>
+						<div class="line-progress-6 margin-b-50" data-prog-percent=".75"><div></div>
 						<p class="progress-title"><b>GITHUB</b></p>
 						</div>
 						<p class="margin-tb-30" style="font-family: 'Noto Sans KR', sans-serif;">
@@ -428,7 +443,7 @@
 		</div>
 	</div>
 </section>
-				
+		
 	
 	
 	
@@ -445,7 +460,7 @@
 				
 				<div class="col-sm-12 col-md-9">
 					<div class="portfolioFilter clearfix margin-b-80">
-						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
+						<!-- <a href="#" data-filter="*" class="current"><b>ALL</b></a> -->
 						<!-- <a href="#" data-filter=".web-design"><b>PDF</b></a> -->
 						<!-- <a href="#" data-filter=".branding"><b>BRANDING</b></a>
 						<a href="#" data-filter=".graphic-design"><b>GRAPHIC DESIGN</b></a> -->
@@ -545,6 +560,8 @@
 		</div><!-- container -->
 	</section><!-- portfolio-section -->
 	
+
+	
 	
 	
 <div id="myModal" class="modal">
@@ -557,15 +574,15 @@
     <br><br><br>
 	<img src="/portfolio/images/github2.png" style="width:46px;
 	position:relative;top:-12px;left:25px;">
-	<button id="github_go" class="github_go" onclick="window.open('https://github.com/wooyejin')">
+	<button id="github_go" class="github_go" onclick="window.open('https://github.com/wooyejin/ShoppingMall-Project')">
     <b style="font-weight:600; color:#777777;position:relative">
         GitHub로 이동</b>
    </button>
    
    <br>
    
-   <img src="/portfolio/images/files.png" style="width:46px;
-	position:relative;top:18px;left:25px;">
+   <img src="/portfolio/images/files.png" style="width:40px;
+	position:relative;top:18px;left:29px;">
 	
 	
 	<button id="github_go" class="pdf_go" onclick="location.href='/portfolio/file/OT.pdf'">
@@ -596,8 +613,8 @@
    
    <br>
    
-   <img src="/portfolio/images/files.png" style="width:46px;
-	position:relative;top:18px;left:25px;">
+   <img src="/portfolio/images/files.png" style="width:40px;
+	position:relative;top:18px;left:29px;">
 	
 	
 	<button id="github_go" class="pdf_go" onclick="location.href='/portfolio/file/WINWIN.pdf'">
@@ -631,8 +648,8 @@
    
    <br>
    
-   <img src="/portfolio/images/files.png" style="width:46px;
-	position:relative;top:18px;left:25px;">
+   <img src="/portfolio/images/files.png" style="width:40px;
+	position:relative;top:18px;left:29px;">
 	
 	
 	<button id="github_go" class="pdf_go" onclick="location.href='/portfolio/file/DIETGOGO.pdf'">
@@ -659,7 +676,8 @@
 		<p class="copyright">
 			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
-		Ye Jin Woo Portfolio
+		Ye Jin Woo All right Reserved.<br>
+		asdok97@naver.com
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 		</p>
 
